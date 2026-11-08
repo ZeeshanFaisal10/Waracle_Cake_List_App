@@ -52,4 +52,9 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     debugImplementation(libs.androidx.compose.ui.tooling)
+    //Gson library allows us to convert JSON into Kotlin objects and Kotlin objects into JSON
+    implementation("com.google.code.gson:gson:2.15.0")
+    // Retrofit allows your Android application to communicate with REST APIs without manually handling HTTP connections.
+    implementation("com.squareup.retrofit2:retrofit:3.0.0")
+    implementation("com.squareup.retrofit2:converter-gson:3.0.0")
 }
