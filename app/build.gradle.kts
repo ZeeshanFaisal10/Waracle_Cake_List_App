@@ -57,4 +57,6 @@ dependencies {
     // Retrofit allows your Android application to communicate with REST APIs without manually handling HTTP connections.
     implementation("com.squareup.retrofit2:retrofit:3.0.0")
     implementation("com.squareup.retrofit2:converter-gson:3.0.0")
+    // Kotlin Coroutines testing library allows us to test asynchronous Kotlin code that uses coroutines, including suspend functions, StateFlow, and ViewModel logic.
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.11.0")
 }
