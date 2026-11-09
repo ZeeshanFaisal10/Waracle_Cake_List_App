@@ -42,7 +42,7 @@ fun CakeItem(
         // TODO: Will provide a bundled drawable fallback
         // so unavailable images can be represented without network access.
         val fallbackUrl =
-            "https://www.pngkey.com/png/detail/233-2332677_image-500580-placeholder-transparent.png"
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeJi8as3-jZ4zZ9wEbmGc2sedphSHGC0HSIOm7C5QE22TztNyvRwWMsVY&s=10"
 
         var useFallback by remember(cake.imageUrl) {
             mutableStateOf(false)
