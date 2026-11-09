@@ -35,6 +35,7 @@ class CakeListViewModel(
                     isRefreshing = true,
                     refreshError = null
                 )
+
             } else {
                 CakeListUiState.Loading
             }
@@ -70,7 +71,7 @@ class CakeListViewModel(
                         )
                     } else {
                         CakeListUiState.Error(
-                            message = "Unable to load cakes."
+                            message = "Unable to load cakes, please check you internet connection."
                         )
                     }
                 }

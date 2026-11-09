@@ -73,7 +73,7 @@ class CakeListViewModelTest {
         val errorState = state as CakeListUiState.Error
 
         assertEquals(
-            "Unable to load cakes.",
+            "Unable to load cakes, please check you internet connection.",
             errorState.message
         )
     }

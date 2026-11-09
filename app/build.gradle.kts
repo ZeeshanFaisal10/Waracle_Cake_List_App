@@ -59,4 +59,8 @@ dependencies {
     implementation("com.squareup.retrofit2:converter-gson:3.0.0")
     // Kotlin Coroutines testing library allows us to test asynchronous Kotlin code that uses coroutines, including suspend functions, StateFlow, and ViewModel logic.
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.11.0")
+    // Coil image loading for Jetpack Compose
+    implementation("io.coil-kt.coil3:coil-compose:3.6.3")
+    // Network image loading using OkHttp
+    implementation("io.coil-kt.coil3:coil-network-okhttp:3.6.3")
 }
